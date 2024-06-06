@@ -1,0 +1,9 @@
+//No.2
+// Rumus Keliling Persegi Panjang = 2x (p+l)
+
+let panjang = 5
+let lebar = 3
+
+let keliling = 2*(panjang + lebar)
+
+console.log (keliling)

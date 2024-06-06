@@ -1,0 +1,8 @@
+//No.5
+
+let tanggal1 = new Date ("2022-01-20")
+let tanggal2 = new Date ("2022-01-22")
+
+let perbedaan = tanggal2 - tanggal1
+
+console.log(perbedaan / (24*3600*1000))

@@ -1,0 +1,14 @@
+let number = 7
+let divider = 0
+
+for (let i = 1 ; i <= number; i++) {
+    if (number % i == 0) {
+        divider++
+    }
+}
+
+console.log(
+    divider == 2?
+    `${number} is prime number`:
+    `${number} is not prime number`
+)

@@ -1,0 +1,8 @@
+// No. 1 Rumus ( (0°C × 9/5) + 32 = 32°F)
+
+let c = 60
+let f = 140
+
+let CtoF = (60 / 5 * 9) + 32
+
+console.log ("60 Celcius > Farenheit =" + (CtoF)+ "F")

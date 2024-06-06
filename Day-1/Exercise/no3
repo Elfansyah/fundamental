@@ -1,0 +1,10 @@
+//No.3
+
+let radius = 5
+let diameter = 2 * 5
+let keliling = Math.PI * 10
+let luas = Math.PI * 5 * 5 
+
+console.log(diameter)
+console.log(keliling)
+console.log(luas)

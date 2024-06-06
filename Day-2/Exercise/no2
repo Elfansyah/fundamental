@@ -1,0 +1,26 @@
+let angka = 5
+
+// if (angka % 2) {
+//     console.log(`${angka} adalah angka ganjil`)
+// }
+
+// else {
+//     console.log(`${angka} adalah angka genap`)
+// }
+
+console.log(angka % 2== 1 ? `${angka} Ganjil` : `${angka} is Genap`)
+
+let number = 7
+let divider = 0
+
+for (let i = 1 ; i <= number; i++) {
+    if (number % i == 0) {
+        divider++
+    }
+}
+
+console.log(
+    divider == 2?
+    `${number} is prime number`:
+    `${number} is not prime number`
+)

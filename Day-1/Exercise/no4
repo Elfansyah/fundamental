@@ -1,0 +1,8 @@
+//No. 4
+
+//rumus = 180 - a - b
+
+let a=80
+let b=65
+
+console.log("Hasil sudut = " + (180 - a - b))
